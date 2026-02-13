@@ -8,10 +8,11 @@
 </head>
 
 <body>
+    <div>
     <label id="lblProductName" for="txtProductName">Product Name:</label><span style="color: red;">*</span>
     <input type="text" id="txtProductName" placeholder="Enter product name" /><br>
     </div>
-    <label i<d="lblProductPrice" for="txtProductPrice">Product Price:</label>
+    <label id="lblProductPrice" for="txtProductPrice">Product Price:</label>
     <input type="number" min="0" max="1000" id="txtProductPrice" placeholder="Enter product price" /><br>
     <label id="lblCategory" for="ddlCategory"> Category</label>
     <select id="ddlCategory">
@@ -25,6 +26,14 @@
         <option value="4-7">4-7 Years</option>
         <option value="8-12">8-12 Years</option>
     </select><br>
+    <label id="lblModels" for="ddlModels">New Moblies</label>
+    <select id="ddlModels">
+        <option value="Iphone">Iphone</option>
+        <option value="vivo">Vivo</option>
+        <option value="Realme">Realme</option>
+    
+    </select>
+    
     <label id="lblUploadImage" for="fileUpload">Upload Image:</label>
 
     <input type="file" id="fileUpload" accept="image/*" />
